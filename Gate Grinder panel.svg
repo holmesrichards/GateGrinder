@@ -16,7 +16,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="Gate Grinder panel.svg">
+   sodipodi:docname="Gate Grinder panel.svg"
+   inkscape:export-filename="/home/rsholmes/Google Drive/Hobbies/Music/Instruments/Synths/Eurorack/scratch/Gate Grinder/Gate Grinder panel.png"
+   inkscape:export-xdpi="213.03999"
+   inkscape:export-ydpi="213.03999">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -27,16 +30,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.3640938"
-     inkscape:cx="157.56254"
-     inkscape:cy="505.08182"
+     inkscape:cx="288.09596"
+     inkscape:cy="527.88422"
      inkscape:document-units="in"
      inkscape:current-layer="layer7"
      showgrid="true"
      units="in"
      inkscape:window-width="1432"
      inkscape:window-height="927"
-     inkscape:window-x="188"
-     inkscape:window-y="40"
+     inkscape:window-x="61"
+     inkscape:window-y="92"
      inkscape:window-maximized="0"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -52,8 +55,8 @@
      inkscape:snap-midpoints="true"
      inkscape:snap-nodes="false"
      inkscape:lockguides="true"
-     inkscape:measure-start="249.6,604.8"
-     inkscape:measure-end="249.6,655.2">
+     inkscape:measure-start="211.862,753.614"
+     inkscape:measure-end="363.611,755.813">
     <inkscape:grid
        type="xygrid"
        id="grid833"
@@ -1159,7 +1162,8 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Alignment"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <g
        id="g932"
        transform="translate(-1.2490005,7.782e-4)">
@@ -1469,7 +1473,8 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Panel hardware"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        inkscape:export-ydpi="215.35991"
        inkscape:export-xdpi="215.35991"
