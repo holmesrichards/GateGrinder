@@ -1035,12 +1035,12 @@ Wire Wire Line
 	9800 4800 10150 4800
 Connection ~ 9800 5500
 $Comp
-L gategrinder:EURO_PWR_2x5-eurocad J2
+L EurorackRSH:EURO_PWR_2x5 J2
 U 1 1 5E4C0E49
 P 1250 6800
 F 0 "J2" H 1250 7247 60  0000 C CNN
 F 1 "EURO_PWR_2x5" H 1250 7141 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1250 7141 60  0001 C CNN
+F 2 "EurorackRSH:Eurorack_Power_Header_Shrouded" H 1250 7141 60  0001 C CNN
 F 3 "" H 1250 6800 60  0001 C CNN
 	1    1250 6800
 	1    0    0    -1  
@@ -1154,7 +1154,7 @@ F 1 "1N5817" H 1850 6625 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1850 6325 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1850 6500 50  0001 C CNN
 	1    1850 6500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N5817 D?
@@ -1167,7 +1167,7 @@ F 1 "1N5817" H 1850 6975 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1850 6925 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1850 7100 50  0001 C CNN
 	1    1850 7100
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Text Label 2500 6500 0    50   ~ 0
 +12V
@@ -1199,29 +1199,17 @@ F 3 "" H 5700 7500 50  0001 C CNN
 	1    5700 7500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 6200 1700 6500
-Wire Wire Line
-	1700 7000 1700 7100
-Connection ~ 1700 6500
-Wire Wire Line
-	1700 6500 1700 6600
-Connection ~ 1700 7100
-Wire Wire Line
-	1700 7100 1700 7350
 Connection ~ 2000 6800
 Wire Wire Line
 	2000 6800 2750 6800
 Connection ~ 2750 6800
 Wire Wire Line
 	2000 6500 2350 6500
-Connection ~ 2000 6500
 Connection ~ 2350 6500
 Wire Wire Line
 	2350 6500 2750 6500
 Wire Wire Line
 	2000 7100 2350 7100
-Connection ~ 2000 7100
 Connection ~ 2350 7100
 Wire Wire Line
 	2350 7100 2750 7100
@@ -1656,4 +1644,16 @@ F 3 "" H 1150 1000 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1600 1000 1750 1000
+Wire Wire Line
+	1700 6200 1700 6500
+Connection ~ 2000 6500
+Connection ~ 1700 6500
+Wire Wire Line
+	1700 6500 1700 6600
+Wire Wire Line
+	1700 7000 1700 7100
+Connection ~ 1700 7100
+Wire Wire Line
+	1700 7100 1700 7350
+Connection ~ 2000 7100
 $EndSCHEMATC
