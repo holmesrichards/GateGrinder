@@ -5,3 +5,10 @@ Narrow
 sym-lib-table
 *~
 fp-lib-table
+*.bck
+*.dcm
+*.zip
+*.DS_Store
+*~
+.gitignore-extra
+*.svg
