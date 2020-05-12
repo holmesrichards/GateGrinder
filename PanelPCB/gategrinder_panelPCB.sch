@@ -34,7 +34,7 @@ AR Path="/5EB9D1FA" Ref="SW2"  Part="1"
 AR Path="/5EB5B51B/5EB9D1FA" Ref="SW?"  Part="1" 
 F 0 "SW2" H 5300 3960 50  0000 C CNN
 F 1 "SW_SPDT" H 5300 3869 50  0000 C CNN
-F 2 "gategrinder_panel:SPDT-toggle-switch-1M-series" H 5300 3675 50  0001 C CNN
+F 2 "gategrinder_panelPCB:SPDT-toggle-switch-1M-series" H 5300 3675 50  0001 C CNN
 F 3 "~" H 5300 3675 50  0001 C CNN
 	1    5300 3675
 	-1   0    0    -1  
@@ -53,7 +53,7 @@ AR Path="/5EB9D203" Ref="SW1"  Part="1"
 AR Path="/5EB5B51B/5EB9D203" Ref="SW?"  Part="1" 
 F 0 "SW1" H 5275 2935 50  0000 C CNN
 F 1 "SW_SPST" H 5275 2844 50  0000 C CNN
-F 2 "gategrinder_panel:SPDT-toggle-switch-1M-series" H 5275 2700 50  0001 C CNN
+F 2 "gategrinder_panelPCB:SPDT-toggle-switch-1M-series" H 5275 2700 50  0001 C CNN
 F 3 "~" H 5275 2700 50  0001 C CNN
 	1    5275 2700
 	1    0    0    -1  
@@ -74,7 +74,7 @@ AR Path="/5EB9D20D" Ref="SW4"  Part="1"
 AR Path="/5EB5B51B/5EB9D20D" Ref="SW?"  Part="1" 
 F 0 "SW4" H 7125 3935 50  0000 C CNN
 F 1 "SW_SPDT" H 7125 3844 50  0000 C CNN
-F 2 "gategrinder_panel:SPDT-toggle-switch-1M-series" H 7125 3650 50  0001 C CNN
+F 2 "gategrinder_panelPCB:SPDT-toggle-switch-1M-series" H 7125 3650 50  0001 C CNN
 F 3 "~" H 7125 3650 50  0001 C CNN
 	1    7125 3650
 	-1   0    0    -1  
@@ -146,7 +146,7 @@ AR Path="/5EB9D236" Ref="SW3"  Part="1"
 AR Path="/5EB5B51B/5EB9D236" Ref="SW?"  Part="1" 
 F 0 "SW3" H 7125 2910 50  0000 C CNN
 F 1 "SW_SPST" H 7125 2819 50  0000 C CNN
-F 2 "gategrinder_panel:SPDT-toggle-switch-1M-series" H 7125 2675 50  0001 C CNN
+F 2 "gategrinder_panelPCB:SPDT-toggle-switch-1M-series" H 7125 2675 50  0001 C CNN
 F 3 "~" H 7125 2675 50  0001 C CNN
 	1    7125 2675
 	1    0    0    -1  
