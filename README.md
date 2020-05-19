@@ -1,11 +1,9 @@
 # GateGrinder
-Kosmo format synth module to generate clocks and act on triggers and gates
-
-This is a module that operates on gates and triggers (“signals” generally).
+Kosmo format synth module to generate clocks and act on triggers and gates (called “signals” generally herein).
 
 Signals come from three sources. There is a jack for an external CV input (±12V). There is a pushbutton for manually created gates. Finally, there is an internal clock to produce a stream of square gates. The clock can be switched On or Off and to Slow or Fast rate ranges, and its Rate can be set, on the front panel. (Slow is around 0.14 Hz to 15 Hz, fast is 3.2 Hz to 320 Hz using the specified components.)
 
-If the Resize On/Off switch is set to Off, the OR of these three signal sources is sent to the Out jack. Otherwise the rising edges are used to trigger a one-shot whose output width is controlled by the Resize Narrow/Wide switch and the Width knob, and the resulting signals are sent to Out. Output widths can vary from about a few milliseconds to about 5 seconds 
+If the Resize On/Off switch is set to Off, the OR of these three signal sources is sent to the Out jack. Otherwise the rising edges are used to trigger a one-shot whose output width is controlled by the Resize Narrow/Wide switch and the Width knob, and the resulting signals are sent to Out. Output widths can vary from about a few milliseconds to about 5 seconds.
 
 (And yes, the width can be set to longer than the time between two pulses. It then ignores any pulses that come along until the resized pulse ends.)
 
