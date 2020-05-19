@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/rsholmes/Google Drive/Hobbies/Music/Instruments/Synths/scratch/Gate Grinder/PanelPCB/gategrinder_panelPCB.sch</source>
+    <date>Mon 18 May 2020 11:31:23 PM EDT</date>
+    <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Gate Grinder panel</title>
+        <company>Rich Holmes / Analog Output</company>
+        <rev/>
+        <date>2020-05-09</date>
+        <source>gategrinder_panelPCB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW2">
+      <value>SW_SPDT</value>
+      <footprint>gategrinder_panelPCB:SPDT-toggle-switch-1M-series</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9D1FA</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <footprint>gategrinder_panelPCB:SPDT-toggle-switch-1M-series</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9D203</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_SPDT</value>
+      <footprint>gategrinder_panelPCB:SPDT-toggle-switch-1M-series</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9D20D</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9D215</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9D22E</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_SPST</value>
+      <footprint>gategrinder_panelPCB:SPDT-toggle-switch-1M-series</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9D236</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x14</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9D25B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CLOCK_RATE_1">
+      <node ref="J1" pin="3"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="2" name="/CLOCK_RANGE_2">
+      <node ref="SW1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="SW2" pin="3"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="4" name="/CLOCK_RANGE_1">
+      <node ref="SW1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="5" name="/CLOCK_RATE_2">
+      <node ref="RV1" pin="3"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="6" name="/RESIZE_RANGE_1">
+      <node ref="SW3" pin="2"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="7" name="/RESIZE_RANGE_2">
+      <node ref="J1" pin="9"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="8" name="/RESIZE_WIDTH_2">
+      <node ref="J1" pin="8"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="9" name="/RESIZE_OUT">
+      <node ref="J1" pin="7"/>
+      <node ref="SW4" pin="3"/>
+    </net>
+    <net code="10" name="/RESIZE_WIDTH_1">
+      <node ref="J1" pin="6"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="11" name="/CLOCK_OUT">
+      <node ref="J1" pin="5"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="12" name="/OUTPUT">
+      <node ref="SW4" pin="2"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="13" name="/OR_OUT">
+      <node ref="J1" pin="12"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="14" name="/OR_IN">
+      <node ref="J1" pin="11"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+  </nets>
+</export>
