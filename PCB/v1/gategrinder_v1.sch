@@ -300,7 +300,7 @@ U 1 1 5EA8A0AA
 P 5250 4800
 F 0 "Q1" H 5441 4846 50  0000 L CNN
 F 1 "BC547" H 5441 4755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5450 4725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5450 4725 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5250 4800 50  0001 L CNN
 	1    5250 4800
 	1    0    0    -1  
@@ -463,10 +463,32 @@ U 1 1 5E7C514A
 P 8125 3100
 F 0 "Q3" H 8316 3146 50  0000 L CNN
 F 1 "BC547" H 8316 3055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 8325 3025 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8325 3025 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 8125 3100 50  0001 L CNN
 	1    8125 3100
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5E7C5155
+P 8725 3450
+F 0 "R21" V 8518 3450 50  0000 C CNN
+F 1 "1k8" V 8609 3450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8655 3450 50  0001 C CNN
+F 3 "~" H 8725 3450 50  0001 C CNN
+	1    8725 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5E7C515F
+P 8725 3750
+F 0 "R22" V 8518 3750 50  0000 C CNN
+F 1 "1k" V 8609 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8655 3750 50  0001 C CNN
+F 3 "~" H 8725 3750 50  0001 C CNN
+	1    8725 3750
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R16
@@ -489,6 +511,28 @@ F 2 "" H 8725 3900 50  0001 C CNN
 F 3 "" H 8725 3900 50  0001 C CNN
 	1    8725 3900
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5E8A7D91
+P 9025 2500
+F 0 "R23" V 8818 2500 50  0000 C CNN
+F 1 "1k8" V 8909 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8955 2500 50  0001 C CNN
+F 3 "~" H 9025 2500 50  0001 C CNN
+	1    9025 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5E8A7D9B
+P 9025 2800
+F 0 "R24" V 8818 2800 50  0000 C CNN
+F 1 "1k" V 8909 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8955 2800 50  0001 C CNN
+F 3 "~" H 9025 2800 50  0001 C CNN
+	1    9025 2800
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR021
@@ -527,6 +571,7 @@ F 3 "" H 8575 2400 50  0001 C CNN
 	1    8575 2400
 	1    0    0    -1  
 $EndComp
+Connection ~ 9025 2650
 $Comp
 L power:GND #PWR014
 U 1 1 5EA001DA
@@ -594,13 +639,15 @@ U 1 1 5EA7BB62
 P 8925 2100
 F 0 "Q4" H 9116 2146 50  0000 L CNN
 F 1 "BC547" H 9116 2055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 9125 2025 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9125 2025 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 8925 2100 50  0001 L CNN
 	1    8925 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7925 3100 7575 3100
+Wire Wire Line
+	9025 2350 9025 2300
 $Comp
 L Device:CP C14
 U 1 1 5E4F10E2
@@ -626,6 +673,28 @@ F 3 "" H 8725 1750 50  0001 C CNN
 	1    8725 1750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R20
+U 1 1 5E7769DB
+P 8725 1600
+F 0 "R20" V 8518 1600 50  0000 C CNN
+F 1 "1k" V 8609 1600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8655 1600 50  0001 C CNN
+F 3 "~" H 8725 1600 50  0001 C CNN
+	1    8725 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5E775E8D
+P 8725 1300
+F 0 "R19" V 8518 1300 50  0000 C CNN
+F 1 "1k8" V 8609 1300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8655 1300 50  0001 C CNN
+F 3 "~" H 8725 1300 50  0001 C CNN
+	1    8725 1300
+	-1   0    0    1   
+$EndComp
 Text GLabel 8225 750  1    50   Input ~ 0
 VCC
 $Comp
@@ -634,11 +703,12 @@ U 1 1 5E749D29
 P 8125 950
 F 0 "Q2" H 8316 996 50  0000 L CNN
 F 1 "BC547" H 8316 905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 8325 875 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8325 875 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 8125 950 50  0001 L CNN
 	1    8125 950 
 	1    0    0    -1  
 $EndComp
+Connection ~ 8725 1450
 Wire Wire Line
 	7925 950  7575 950 
 Wire Wire Line
@@ -646,6 +716,8 @@ Wire Wire Line
 Wire Wire Line
 	7575 2100 7625 2100
 Connection ~ 7575 950 
+Wire Wire Line
+	9025 4450 9025 4500
 Wire Wire Line
 	9025 4000 9025 4050
 Text GLabel 9025 4000 1    50   Input ~ 0
@@ -660,6 +732,28 @@ F 2 "" H 9025 5100 50  0001 C CNN
 F 3 "" H 9025 5100 50  0001 C CNN
 	1    9025 5100
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5E859DB9
+P 9025 4950
+F 0 "R26" V 8818 4950 50  0000 C CNN
+F 1 "1k" V 8909 4950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8955 4950 50  0001 C CNN
+F 3 "~" H 9025 4950 50  0001 C CNN
+	1    9025 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5E859DAF
+P 9025 4650
+F 0 "R25" V 8818 4650 50  0000 C CNN
+F 1 "1k8" V 8909 4650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8955 4650 50  0001 C CNN
+F 3 "~" H 9025 4650 50  0001 C CNN
+	1    9025 4650
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7575 4250 7575 3100
@@ -901,6 +995,8 @@ Wire Wire Line
 Connection ~ 6350 2750
 Wire Wire Line
 	6350 2750 6350 3100
+Connection ~ 8725 3600
+Connection ~ 9025 4800
 Wire Wire Line
 	950  3650 950  4125
 Connection ~ 8075 5500
@@ -1449,6 +1545,14 @@ Text Label 9675 3600 0    50   ~ 0
 GATE_OUT
 Text Label 9675 4800 0    50   ~ 0
 GATE_ON
+Wire Wire Line
+	8725 1450 9675 1450
+Wire Wire Line
+	9025 4800 9675 4800
+Wire Wire Line
+	9025 2650 9675 2650
+Wire Wire Line
+	8725 3600 9675 3600
 Wire Notes Line
 	8300 5675 4100 5675
 Text Label 3350 3450 0    50   ~ 0
@@ -1612,7 +1716,7 @@ U 1 1 5EA7D15C
 P 8925 4250
 F 0 "Q5" H 9116 4296 50  0000 L CNN
 F 1 "BC547" H 9116 4205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 9125 4175 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9125 4175 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 8925 4250 50  0001 L CNN
 	1    8925 4250
 	1    0    0    -1  
@@ -1666,72 +1770,4 @@ F20 "GATE_LED_H" I R 3425 5675 50
 F21 "~GATE~_LED_H" I R 3425 5775 50 
 F22 "MANUAL_GATE_H" I R 3425 4275 50 
 $EndSheet
-$Comp
-L Device:R_POT_TRIM RV1
-U 1 1 5EC469A5
-P 8725 1450
-F 0 "RV1" H 8655 1404 50  0000 R CNN
-F 1 "2k" H 8655 1495 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 8725 1450 50  0001 C CNN
-F 3 "~" H 8725 1450 50  0001 C CNN
-	1    8725 1450
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	8875 1450 9675 1450
-Wire Wire Line
-	8725 1150 8725 1300
-Wire Wire Line
-	8725 1600 8725 1750
-$Comp
-L Device:R_POT_TRIM RV3
-U 1 1 5EC727D1
-P 9025 2650
-F 0 "RV3" H 8955 2604 50  0000 R CNN
-F 1 "2k" H 8955 2695 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 9025 2650 50  0001 C CNN
-F 3 "~" H 9025 2650 50  0001 C CNN
-	1    9025 2650
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9025 2800 9025 2950
-Wire Wire Line
-	9025 2300 9025 2500
-Wire Wire Line
-	9175 2650 9675 2650
-$Comp
-L Device:R_POT_TRIM RV2
-U 1 1 5EC87E41
-P 8725 3600
-F 0 "RV2" H 8655 3554 50  0000 R CNN
-F 1 "2k" H 8655 3645 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 8725 3600 50  0001 C CNN
-F 3 "~" H 8725 3600 50  0001 C CNN
-	1    8725 3600
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	8725 3300 8725 3450
-Wire Wire Line
-	8725 3750 8725 3900
-Wire Wire Line
-	8875 3600 9675 3600
-$Comp
-L Device:R_POT_TRIM RV4
-U 1 1 5EC9D781
-P 9025 4800
-F 0 "RV4" H 8955 4754 50  0000 R CNN
-F 1 "2k" H 8955 4845 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 9025 4800 50  0001 C CNN
-F 3 "~" H 9025 4800 50  0001 C CNN
-	1    9025 4800
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9025 4950 9025 5100
-Wire Wire Line
-	9025 4450 9025 4650
-Wire Wire Line
-	9175 4800 9675 4800
 $EndSCHEMATC

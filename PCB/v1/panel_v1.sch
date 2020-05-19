@@ -1,0 +1,408 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 3075 2050 0    50   ~ 0
+GATE_IN
+Text Label 3075 2150 0    50   ~ 0
+GATE_INV_OUT
+Text Label 3075 2250 0    50   ~ 0
+GATE_OFF
+Text Label 3075 2350 0    50   ~ 0
+GATE_OUT
+Text Label 3075 2450 0    50   ~ 0
+GATE_ON
+$Comp
+L Connector:AudioJack3_SwitchTR J6
+U 1 1 5F0FE776
+P 5100 1650
+AR Path="/5EB5B51B/5F0FE776" Ref="J6"  Part="1" 
+AR Path="/5EC73353/5F0FE776" Ref="J?"  Part="1" 
+F 0 "J6" H 4820 1483 50  0000 R CNN
+F 1 "AudioJack3_SwitchTR" H 4820 1574 50  0000 R CNN
+F 2 "Gate Grinder:Jack_6.35mm_PJ_629HAN" H 5100 1650 50  0001 C CNN
+F 3 "~" H 5100 1650 50  0001 C CNN
+	1    5100 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1034DC
+P 4900 1750
+AR Path="/5F1034DC" Ref="#PWR?"  Part="1" 
+AR Path="/5ED745FE/5F1034DC" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F507C/5F1034DC" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5F1034DC" Ref="#PWR030"  Part="1" 
+AR Path="/5EC73353/5F1034DC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR030" H 4900 1500 50  0001 C CNN
+F 1 "GND" H 4905 1577 50  0000 C CNN
+F 2 "" H 4900 1750 50  0001 C CNN
+F 3 "" H 4900 1750 50  0001 C CNN
+	1    4900 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1038EA
+P 4900 2500
+AR Path="/5F1038EA" Ref="#PWR?"  Part="1" 
+AR Path="/5ED745FE/5F1038EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F507C/5F1038EA" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5F1038EA" Ref="#PWR031"  Part="1" 
+AR Path="/5EC73353/5F1038EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR031" H 4900 2250 50  0001 C CNN
+F 1 "GND" H 4905 2327 50  0000 C CNN
+F 2 "" H 4900 2500 50  0001 C CNN
+F 3 "" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F103BC5
+P 4900 3250
+AR Path="/5F103BC5" Ref="#PWR?"  Part="1" 
+AR Path="/5ED745FE/5F103BC5" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F507C/5F103BC5" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5F103BC5" Ref="#PWR032"  Part="1" 
+AR Path="/5EC73353/5F103BC5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR032" H 4900 3000 50  0001 C CNN
+F 1 "GND" H 4905 3077 50  0000 C CNN
+F 2 "" H 4900 3250 50  0001 C CNN
+F 3 "" H 4900 3250 50  0001 C CNN
+	1    4900 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1048D4
+P 4900 4000
+AR Path="/5F1048D4" Ref="#PWR?"  Part="1" 
+AR Path="/5ED745FE/5F1048D4" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F507C/5F1048D4" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5F1048D4" Ref="#PWR033"  Part="1" 
+AR Path="/5EC73353/5F1048D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR033" H 4900 3750 50  0001 C CNN
+F 1 "GND" H 4905 3827 50  0000 C CNN
+F 2 "" H 4900 4000 50  0001 C CNN
+F 3 "" H 4900 4000 50  0001 C CNN
+	1    4900 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F10546E
+P 4900 4750
+AR Path="/5F10546E" Ref="#PWR?"  Part="1" 
+AR Path="/5ED745FE/5F10546E" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F507C/5F10546E" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5F10546E" Ref="#PWR034"  Part="1" 
+AR Path="/5EC73353/5F10546E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR034" H 4900 4500 50  0001 C CNN
+F 1 "GND" H 4905 4577 50  0000 C CNN
+F 2 "" H 4900 4750 50  0001 C CNN
+F 3 "" H 4900 4750 50  0001 C CNN
+	1    4900 4750
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4900 4650
+NoConn ~ 4900 4550
+NoConn ~ 4900 4350
+NoConn ~ 4900 3900
+NoConn ~ 4900 3800
+NoConn ~ 4900 3600
+NoConn ~ 4900 3150
+NoConn ~ 4900 3050
+NoConn ~ 4900 2850
+NoConn ~ 4900 2400
+NoConn ~ 4900 2300
+NoConn ~ 4900 2100
+NoConn ~ 4900 1550
+NoConn ~ 4900 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5F107238
+P 4550 1350
+AR Path="/5F107238" Ref="#PWR?"  Part="1" 
+AR Path="/5ED745FE/5F107238" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F507C/5F107238" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5F107238" Ref="#PWR029"  Part="1" 
+AR Path="/5EC73353/5F107238" Ref="#PWR?"  Part="1" 
+F 0 "#PWR029" H 4550 1100 50  0001 C CNN
+F 1 "GND" H 4555 1177 50  0000 C CNN
+F 2 "" H 4550 1350 50  0001 C CNN
+F 3 "" H 4550 1350 50  0001 C CNN
+	1    4550 1350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1350 4900 1350
+Wire Wire Line
+	4900 1450 4725 1450
+Wire Wire Line
+	4725 1450 4725 1725
+Wire Wire Line
+	4725 1725 4250 1725
+Wire Wire Line
+	4900 2200 4250 2200
+Wire Wire Line
+	4900 2950 4250 2950
+Wire Wire Line
+	4900 3700 4250 3700
+Wire Wire Line
+	4900 4450 4250 4450
+Text Label 4250 1725 0    50   ~ 0
+GATE_IN
+Text Label 4250 2950 0    50   ~ 0
+GATE_OFF
+Text Label 4250 3700 0    50   ~ 0
+GATE_OUT
+Text Label 4250 4450 0    50   ~ 0
+GATE_ON
+Text Label 4250 2200 0    50   ~ 0
+GATE_INV_OUT
+$Comp
+L Connector:AudioJack3_SwitchTR J7
+U 1 1 5F11C984
+P 5100 2400
+AR Path="/5EB5B51B/5F11C984" Ref="J7"  Part="1" 
+AR Path="/5EC73353/5F11C984" Ref="J?"  Part="1" 
+F 0 "J7" H 4820 2233 50  0000 R CNN
+F 1 "AudioJack3_SwitchTR" H 4820 2324 50  0000 R CNN
+F 2 "Gate Grinder:Jack_6.35mm_PJ_629HAN" H 5100 2400 50  0001 C CNN
+F 3 "~" H 5100 2400 50  0001 C CNN
+	1    5100 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack3_SwitchTR J8
+U 1 1 5F11CFC1
+P 5100 3150
+AR Path="/5EB5B51B/5F11CFC1" Ref="J8"  Part="1" 
+AR Path="/5EC73353/5F11CFC1" Ref="J?"  Part="1" 
+F 0 "J8" H 4820 2983 50  0000 R CNN
+F 1 "AudioJack3_SwitchTR" H 4820 3074 50  0000 R CNN
+F 2 "Gate Grinder:Jack_6.35mm_PJ_629HAN" H 5100 3150 50  0001 C CNN
+F 3 "~" H 5100 3150 50  0001 C CNN
+	1    5100 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack3_SwitchTR J9
+U 1 1 5F11D76E
+P 5100 3900
+AR Path="/5EB5B51B/5F11D76E" Ref="J9"  Part="1" 
+AR Path="/5EC73353/5F11D76E" Ref="J?"  Part="1" 
+F 0 "J9" H 4820 3733 50  0000 R CNN
+F 1 "AudioJack3_SwitchTR" H 4820 3824 50  0000 R CNN
+F 2 "Gate Grinder:Jack_6.35mm_PJ_629HAN" H 5100 3900 50  0001 C CNN
+F 3 "~" H 5100 3900 50  0001 C CNN
+	1    5100 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack3_SwitchTR J10
+U 1 1 5F11DC6C
+P 5100 4650
+AR Path="/5EB5B51B/5F11DC6C" Ref="J10"  Part="1" 
+AR Path="/5EC73353/5F11DC6C" Ref="J?"  Part="1" 
+F 0 "J10" H 4820 4483 50  0000 R CNN
+F 1 "AudioJack3_SwitchTR" H 4820 4574 50  0000 R CNN
+F 2 "Gate Grinder:Jack_6.35mm_PJ_629HAN" H 5100 4650 50  0001 C CNN
+F 3 "~" H 5100 4650 50  0001 C CNN
+	1    5100 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EB73076
+P 6825 1750
+AR Path="/5EB73076" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5EB73076" Ref="#PWR036"  Part="1" 
+AR Path="/5EC73353/5EB73076" Ref="#PWR?"  Part="1" 
+F 0 "#PWR036" H 6825 1500 50  0001 C CNN
+F 1 "GND" H 6830 1577 50  0000 C CNN
+F 2 "" H 6825 1750 50  0001 C CNN
+F 3 "" H 6825 1750 50  0001 C CNN
+	1    6825 1750
+	1    0    0    -1  
+$EndComp
+Text HLabel 2175 2050 0    50   Input ~ 0
+GATE_IN_H
+Text HLabel 2175 2150 0    50   Input ~ 0
+GATE_INV_OUT_H
+Text HLabel 2175 2250 0    50   Input ~ 0
+GATE_OFF_H
+Text HLabel 2175 2350 0    50   Input ~ 0
+GATE_OUT_H
+Text HLabel 2175 2450 0    50   Input ~ 0
+GATE_ON_H
+Text Label 6825 1350 0    50   ~ 0
+MANUAL_GATE
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5EB73095
+P 6825 1550
+AR Path="/5EB73095" Ref="SW?"  Part="1" 
+AR Path="/5EB5B51B/5EB73095" Ref="SW3"  Part="1" 
+AR Path="/5EC73353/5EB73095" Ref="SW?"  Part="1" 
+F 0 "SW3" V 6871 1502 50  0000 R CNN
+F 1 "SW_Push" V 6780 1502 50  0000 R CNN
+F 2 "Gate Grinder:Tayda-PBS11-pushbutton" H 6825 1750 50  0001 C CNN
+F 3 "~" H 6825 1750 50  0001 C CNN
+	1    6825 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3925 6900 3925
+Text Label 6900 3925 2    50   ~ 0
+GATE_LED
+Wire Wire Line
+	6900 4500 7100 4500
+Text Label 6900 4500 2    50   ~ 0
+~GATE~_LED
+$Comp
+L Device:LED D?
+U 1 1 5F1446CA
+P 7100 4650
+AR Path="/5F1446CA" Ref="D?"  Part="1" 
+AR Path="/5EB5B51B/5F1446CA" Ref="D8"  Part="1" 
+F 0 "D8" V 7139 4533 50  0000 R CNN
+F 1 "LED" V 7048 4533 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 7100 4650 50  0001 C CNN
+F 3 "~" H 7100 4650 50  0001 C CNN
+	1    7100 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1446C4
+P 7100 4800
+AR Path="/5F1446C4" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5F1446C4" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 7100 4550 50  0001 C CNN
+F 1 "GND" H 7105 4627 50  0000 C CNN
+F 2 "" H 7100 4800 50  0001 C CNN
+F 3 "" H 7100 4800 50  0001 C CNN
+	1    7100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F143ECC
+P 7100 4075
+AR Path="/5F143ECC" Ref="D?"  Part="1" 
+AR Path="/5EB5B51B/5F143ECC" Ref="D7"  Part="1" 
+F 0 "D7" V 7139 3958 50  0000 R CNN
+F 1 "LED" V 7048 3958 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 7100 4075 50  0001 C CNN
+F 3 "~" H 7100 4075 50  0001 C CNN
+	1    7100 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F143EC6
+P 7100 4225
+AR Path="/5F143EC6" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5F143EC6" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 7100 3975 50  0001 C CNN
+F 1 "GND" H 7105 4052 50  0000 C CNN
+F 2 "" H 7100 4225 50  0001 C CNN
+F 3 "" H 7100 4225 50  0001 C CNN
+	1    7100 4225
+	1    0    0    -1  
+$EndComp
+Text Label 3075 2650 0    50   ~ 0
+~GATE~_LED
+Text Label 3075 2550 0    50   ~ 0
+GATE_LED
+Text Label 3075 2750 0    50   ~ 0
+MANUAL_GATE
+$Comp
+L Connector_Generic:Conn_01x14 J3
+U 1 1 5F2A7FA6
+P 2375 3750
+F 0 "J3" H 2455 3742 50  0000 L CNN
+F 1 "Conn_01x14" H 2455 3651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 2375 3750 50  0001 C CNN
+F 3 "~" H 2375 3750 50  0001 C CNN
+	1    2375 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2A8E2C
+P 2175 4450
+AR Path="/5F2A8E2C" Ref="#PWR?"  Part="1" 
+AR Path="/5ED745FE/5F2A8E2C" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F507C/5F2A8E2C" Ref="#PWR?"  Part="1" 
+AR Path="/5EB5B51B/5F2A8E2C" Ref="#PWR026"  Part="1" 
+AR Path="/5EC73353/5F2A8E2C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR026" H 2175 4200 50  0001 C CNN
+F 1 "GND" H 2180 4277 50  0000 C CNN
+F 2 "" H 2175 4450 50  0001 C CNN
+F 3 "" H 2175 4450 50  0001 C CNN
+	1    2175 4450
+	-1   0    0    -1  
+$EndComp
+Text HLabel 2175 3150 0    50   Input ~ 0
+CLOCK_RANGE_1_H
+Text HLabel 2175 3250 0    50   Input ~ 0
+CLOCK_RANGE_2_H
+Text HLabel 2175 3350 0    50   Input ~ 0
+CLOCK_RATE_1_H
+Text HLabel 2175 3450 0    50   Input ~ 0
+CLOCK_RATE_2_H
+Text HLabel 2175 3550 0    50   Input ~ 0
+CLOCK_OUT_H
+Text HLabel 2175 4150 0    50   Input ~ 0
+OR_IN_H
+Text HLabel 2175 4250 0    50   Input ~ 0
+OR_OUT_H
+Text HLabel 2175 4050 0    50   Input ~ 0
+RESIZE_RANGE_1_H
+Text HLabel 2175 3950 0    50   Input ~ 0
+RESIZE_RANGE_2_H
+Text HLabel 2175 3650 0    50   Input ~ 0
+RESIZE_WIDTH_1_H
+Text HLabel 2175 3850 0    50   Input ~ 0
+RESIZE_WIDTH_2_H
+Text HLabel 2175 3750 0    50   Input ~ 0
+RESIZE_OUT_H
+Text HLabel 2175 4350 0    50   Input ~ 0
+OUTPUT_H
+Text HLabel 2175 2550 0    50   Input ~ 0
+GATE_LED_H
+Text HLabel 2175 2650 0    50   Input ~ 0
+~GATE~_LED_H
+Text HLabel 2175 2750 0    50   Input ~ 0
+MANUAL_GATE_H
+Wire Wire Line
+	2175 2050 3075 2050
+Wire Wire Line
+	2175 2150 3075 2150
+Wire Wire Line
+	2175 2250 3075 2250
+Wire Wire Line
+	2175 2350 3075 2350
+Wire Wire Line
+	2175 2450 3075 2450
+Wire Wire Line
+	2175 2550 3075 2550
+Wire Wire Line
+	2175 2650 3075 2650
+Wire Wire Line
+	2175 2750 3075 2750
+$EndSCHEMATC
