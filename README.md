@@ -12,3 +12,5 @@ The signal at the Out jack also goes to an inverter whose output goes to the ~Ou
 So one can invert gates, change the lengths of gates, convert gates to triggers, convert triggers to gates, make a gate clock, make a trigger clock.
 
 Repository at https://github.com/holmesrichards/GateGrinder includes KiCad format schematic, PCB design, and panel design.
+
+<img src="https://raw.githubusercontent.com/holmesrichards/GateGrinder/master/Panel/Gate%20Grinder%20panel.png" width="300">
