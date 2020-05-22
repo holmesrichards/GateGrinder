@@ -10,6 +10,8 @@ Most components go on the rear of the main board. Jacks, LEDs, and push button g
 
 Toggle switches and pots need all nuts and washers removed before placing the panel. LEDs need either to have long enough legs to reach the main board or to have their legs extended with pieces of wire. The recommended push button fits the panel hole and, assuming a 1.6 mm panel, the solder lugs just barely extend to and through the main board. Note that since it is installed from the front of the panel, once it has been soldered the panel cannot be removed without cutting the push button loose.
 
+With components as specified, the output levels are low, just under 4V. Replacing the 1.8k resistors in the output voltage dividers (R19, R21, R23, R25) with 1.2k will bring these up to 5V, or adjust however you like to suit your preferences.
+
 BOM for the main board is here: https://github.com/holmesrichards/GateGrinder/blob/master/PCB/v1/gategrinder_v1_bom.md
 
 BOM for the panel board is here: https://github.com/holmesrichards/GateGrinder/blob/master/PanelPCB/gategrinder_panelPCB_bom.md
