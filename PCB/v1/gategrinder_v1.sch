@@ -1747,7 +1747,7 @@ $Sheet
 S 2700 3600 725  2400
 U 5EB5B51B
 F0 "Panel components" 50
-F1 "panel.sch" 50
+F1 "panel_v1.sch" 50
 F2 "GATE_IN_H" I R 3425 3775 50 
 F3 "GATE_INV_OUT_H" I R 3425 3875 50 
 F4 "GATE_OFF_H" I R 3425 3975 50 

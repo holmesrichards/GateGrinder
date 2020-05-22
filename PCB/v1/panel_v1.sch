@@ -331,10 +331,10 @@ GATE_LED
 Text Label 3075 2750 0    50   ~ 0
 MANUAL_GATE
 $Comp
-L Connector_Generic:Conn_01x14 J3
+L Connector_Generic:Conn_01x14 J?
 U 1 1 5F2A7FA6
 P 2375 3750
-F 0 "J3" H 2455 3742 50  0000 L CNN
+F 0 "J?" H 2455 3742 50  0000 L CNN
 F 1 "Conn_01x14" H 2455 3651 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 2375 3750 50  0001 C CNN
 F 3 "~" H 2375 3750 50  0001 C CNN
