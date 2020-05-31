@@ -31,7 +31,7 @@ Generated from schematic by Eeschema 5.1.5-52549c5~84~ubuntu18.04.1
 | R15, R16 | 2 | RL | Resistor |  |
 | RV1, RV2, RV3, RV4 | 4 | 2k | Trim-potentiometer |  |
 | SW3 | 1 | SW_Push | Push button switch, generic, two pins |  |
-| U1 | 1 | NE556 | Dual Precision Timers, DIP-14/SOIC-14/SSOP-14 |  |
+| U1 | 1 | NE556N | Dual Precision Timers, DIP-14/SOIC-14/SSOP-14 |  |
 | U2 | 1 | 4069 | Hex inverter |  |
 | U3 | 1 | TL072 | Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8 |  |
 | U4 | 1 | 4071 | Quad Or 2 inputs |  |

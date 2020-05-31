@@ -33,7 +33,7 @@ These build notes are for the first version of Gate Grinder. For the current ver
 | R15, R16 | 2 | RL | Resistor |  |
 | R19, R21, R23, R25 | 4 | 1k8 | Resistor |  |
 | SW3 | 1 | SW_Push | Push button switch, solder lugs, Tayda A-4326 |  |
-| U1 | 1 | NA556 | Dual Precision Timers, DIP-14/SOIC-14/SSOP-14 |  |
+| U1 | 1 | NE556N | Dual Precision Timers, DIP-14/SOIC-14/SSOP-14 |  |
 | U2 | 1 | 4069 | Hex inverter |  |
 | U3 | 1 | TL072 | Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8 |  |
 | U4 | 1 | 4071 | Quad Or 2 inputs |  |  
