@@ -34,9 +34,10 @@ Generated from schematic by Eeschema 5.1.5-52549c5~84~ubuntu18.04.1
 | U1 | 1 | NE556N | Dual Precision Timers, DIP-14/SOIC-14/SSOP-14 |  |
 | U2 | 1 | 4069 | Hex inverter |  |
 | U3 | 1 | TL072 | Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8 |  |
-| U4 | 1 | 4071 | Quad Or 2 inputs |  |
+| U4 | 1 | 4071 | Quad Or 2 inputs |  |  
+  
     
-*For R15–R16 use values that give you your desired LED brightness. Try them on a breadboard with your LED and 12V.
+  *For R15–R16 use values that give you your desired LED brightness. Try them on a breadboard with your LED and 12V.
 
   Also needed/recommended:
 
