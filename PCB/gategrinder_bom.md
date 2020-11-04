@@ -24,7 +24,7 @@ Generated from schematic by Eeschema 5.1.5-52549c5~84~ubuntu18.04.1
 | J6, J7, J8, J9, J10 | 5 | AudioJack3_SwitchTR | Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling) |  |
 | Q1, Q2, Q3, Q4, Q5 | 5 | BC547 | 0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92 |  |
 | R1, R12 | 2 | 1k | Resistor |  |
-| R2, R5, R6, R7, R9, R10, R13, R14, R17, R18 | 10 | 100k | Resistor |  |
+| R2, R5, R6, R7, R9, R10, R13, R14, R17, R18, R19 | 11 | 100k | Resistor |  |
 | R3 | 1 | 1M | Resistor |  |
 | R4, R11 | 2 | 10k | Resistor |  |
 | R8 | 1 | 15k | Resistor |  |
