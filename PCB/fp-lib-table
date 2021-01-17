@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Gate Grinder")(type KiCad)(uri "${KIPRJMOD}/Gate Grinder.pretty")(options "")(descr ""))
+)

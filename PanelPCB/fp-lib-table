@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name gategrinder_panelPCB)(type KiCad)(uri ${KIPRJMOD}/gategrinder_panelPCB.pretty)(options "")(descr ""))
+)
